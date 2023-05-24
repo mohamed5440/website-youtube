@@ -226,7 +226,18 @@ button {
         display: flex !important;
         font-size: 45px;
     }
-    .header-left .data-text {
+    .landing .container .card {
+        flex: 1 0 180px;
+    }
+    .container .card .video img {
+        border-radius: 0px !important;
+    }
+    .landing .container {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .container .card .content .text p {
+        display: flex;
     }
 }
 .header-left {
@@ -292,6 +303,7 @@ button {
 .container .card .video img {
     max-width: 100%;
     border-radius: 1rem;
+    width: 100%;
 }
 .container .card .content {
     display: flex;
