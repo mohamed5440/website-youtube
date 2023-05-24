@@ -226,11 +226,13 @@ button {
         display: flex !important;
         font-size: 45px;
     }
+    .header-left .data-text {
+    }
 }
 .header-left {
     background-color: var(--background);
     width: 80px;
-    height: 94vh;
+    height: 93vh;
     padding: 2px;
     position: absolute;
     right: 0;
@@ -293,7 +295,7 @@ button {
 }
 .container .card .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 5px;
 }
 .container .card .content .logo img {
@@ -302,9 +304,12 @@ button {
     width: 35px;
 }
 .content .text h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: normal;
 }
 .content .text p {
     margin-top: .2rem;
+    color: var(--Color5);
+    font-size: 14px;
 }
 /* End Header */
